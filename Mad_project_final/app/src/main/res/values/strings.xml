@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BUDGET TRACKER</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="money_left">MONEY LEFT</string>
+    <string-array name="category">
+        <item name="c1">FOOD</item>
+        <item name="c2">CLOTH SHOPPING</item>
+        <item name="c3">ELECTRONIC DEVICES</item>
+        <item name="c4">MONTHLY EXPENDITURE</item>
+        <item name="c5">OTHERS</item>
+    </string-array>
+    <string-array name="FOOD">
+        <item name="f1">HOTEL</item>
+        <item name="f2">FOOTPATH</item>
+        <item name="f3">RAW-MATERIAL</item>
+        <item name="f4">SNACKS</item>
+    </string-array>
+    <string-array name="CLOTH">
+        <item name="k1">MALL</item>
+        <item name="k2">ONLINE SHOPPING</item>
+        <item name="k3">SHOPS</item>
+    </string-array>
+    <string-array name="ELECTRONIC">
+        <item name="e1">MALL</item>
+        <item name="e2">ONLINE SHOPPING</item>
+        <item name="e3">SHOPS</item>
+    </string-array>
+    <string-array name="MONTHLY">
+        <item name="e1">HOUSE RENT</item>
+        <item name="e2">WIFI</item>
+        <item name="e3">MESS</item>
+    </string-array>
+    <string-array name="OTHERS">
+        <item name="o1">MEDICAL</item>
+        <item name="o2">TRAVELLING</item>
+        <item name="o3">PARTY</item>
+        <item name="o4">STATIONARY</item>
+    </string-array>
+</resources>

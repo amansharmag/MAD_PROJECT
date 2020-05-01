@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "MONEY SPEND"
+        android:id = "@+id/t1"
+        android:textColor = "@color/colorPrimaryDark"
+        android:textSize = "50sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/t5"
+        android:layout_toStartOf="@+id/t5"
+        android:text="Rs."
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/x1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/t3"
+        android:layout_alignEnd="@+id/t6"
+        android:layout_alignRight="@+id/t6"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text ="MONEY LEFT"
+        android:id = "@+id/t3"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/t2"
+        android:textColor = "@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:textSize = "50sp"/>
+
+    <TextView
+        android:id="@+id/x2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/x3"
+        android:layout_alignBottom="@+id/x3"
+        android:layout_alignLeft="@+id/t2"
+        android:layout_alignStart="@+id/t2"
+        android:text="Rs."
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/x3"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/t5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/x3"
+        android:layout_alignRight="@+id/x3"
+        android:layout_below="@+id/x2"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/calendar" />
+
+
+    <ImageView
+        android:id="@+id/t7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/t6"
+        android:layout_toEndOf="@+id/t6"
+        android:layout_toRightOf="@+id/t6"
+        android:src="@drawable/ic" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/t5"
+        android:layout_alignStart="@+id/t5"
+        android:layout_below="@+id/t5"
+        android:text="ADD EXPENSE"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

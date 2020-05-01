@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mad_project_final.Setting">
+
+    <EditText
+
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s1"
+        android:fontFamily="sans-serif"
+        android:hint=" Enter Amount In(Rs.)"
+        android:padding="20dp"
+        android:inputType="number"
+        android:textColorHint="@color/colorAccent" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:layout_marginTop = "120dp"
+        android:id="@+id/s2"
+        android:src="@drawable/money"
+        android:layout_marginLeft="50dp"  android:layout_marginStart="50dp"
+        />
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "UPDATE MONEY"
+        android:id = "@+id/s3"
+        android:layout_below="@+id/s2"
+        android:textColor = "@color/colorAccent"
+        android:textSize = "20sp"
+
+        android:layout_marginLeft="50dp" android:layout_marginStart="50dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:layout_marginTop = "120dp"
+        android:id="@+id/s4"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/rupees"
+        android:layout_toRightOf="@+id/s3"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text ="ADD MONEY"
+        android:id = "@+id/t2"
+        android:layout_below="@+id/s4"
+        android:textColor = "@color/colorAccent"
+        android:textSize = "20sp"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/s3">
+
+    </TextView>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Your Amount:"
+        android:id = "@+id/s5"
+        android:layout_marginTop="350dp"
+
+        android:textColor = "@color/colorAccent"
+        android:textSize = "35sp"
+
+        android:layout_marginLeft="50dp" android:layout_marginStart="50dp"
+        />
+
+    <TextView
+        android:id="@+id/s6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/s5"
+        android:layout_alignBottom="@+id/s5"
+        android:layout_alignLeft="@+id/s4"
+        android:layout_alignStart="@+id/s4"
+
+        android:textSize="35sp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop = "480dp"
+        android:id="@+id/s7"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/restore"
+        />
+</RelativeLayout>

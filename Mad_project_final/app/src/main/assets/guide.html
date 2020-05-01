@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-image:url("c.png");
+   background-repeat: no- repeat;
+    background-repeat: no-repeat;
+  background-size: cover;
+height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+}
+
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  background-image:url("coins.png");
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  f
+
+  background-color: #f1f1f1;
+  background-image:url("c.png");
+   background-repeat:  repeat;
+  }
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+}
+</style>
+</head>
+<body>
+
+<header>
+    <span class="blinking"><b>BUDGET TRACKER<b></span>
+
+</header>
+
+<section>
+
+    </ul>
+    </nav>
+
+    <article>
+
+        <p>In our Main screen app you will see the amount that you have spend and also money left from the amount that that you have inserted in the beginning.</p>
+        <p>In the bottom of the app you will find two icon , refresh icon will refresh your spend money and left money and the other add icon will lead you to the other page of the app where you can add your expenditure whenever you spend your money, its its category and also the sub category . Date will be automatically stored. </p>
+        <p>In navigation bar, after clicking on filter you will find the menu , on clicking different items of menu , you will get all the information of total spend money of that category  along with history of each spend</p>
+        <p>In navigation bar , you will also find setting, in which you can update your amount, and more money to your total amount.After entering the amount you, have to touch your required icon.In the bottom of the screen you will find the reload icon , by touching that icon all your history of expenditure will be removed.This will helpful to keep track of expenditure in new month.</p>
+    </article>
+</section>
+
+<footer>
+    <p>For any query or complain ,you can mail us to: Smanand@mitaoe.ac.in</p>
+</footer>
+
+</body>
+</html>
